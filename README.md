@@ -18,7 +18,7 @@ This repository provides a technical overview of the system design and engineeri
 ### Board Analysis & Attack Detection
 - Custom attack-map generation for all piece types (sliding and non-sliding)
 - Separate internal board logic for analysis tools (arrows, highlights, overlays)
-- Real-time evaluation of attacked and defended pieces
+- Per position evaluation of attacked and defended pieces
 - Value-aware attack analysis (e.g. minor vs major piece trades)
 - Efficient detection of:
   - Checks
