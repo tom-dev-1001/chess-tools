@@ -37,6 +37,21 @@ This repository provides a technical overview of the system design and engineeri
 
 ---
 
+### Game Variants
+- Standard chess
+- **Duck Chess**
+  - Full rule support
+  - AI engine adapted to variant-specific mechanics
+  - Move generation, legality checks, and evaluation extended beyond standard chess
+- **Chess960**
+  - Complete support for all 960 starting positions
+  - Position selection via:
+    - Index number
+    - Piece-order pattern search
+    - Random generation
+   
+---
+
 ### Analysis Board & Variations
 - Full analysis board with:
   - Move history
