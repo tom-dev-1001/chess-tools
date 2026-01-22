@@ -52,7 +52,7 @@ This repository provides a technical overview of the system design and engineeri
   - 3D chess pieces modeled in **Blender**
 - Three distinct 3D visual styles
 - Dynamic shadow system with multiple quality modes:
-  - Disabled (low-end / “potato” mode)
+  - Disabled (low-end)
   - Simple shadows
   - Full realistic shadows
 - Shadow quality directly affects draw calls and rendering cost
