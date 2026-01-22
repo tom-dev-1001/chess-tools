@@ -2,6 +2,10 @@
 
 **Commercial chess analysis and training application**
 
+<img width="1616" height="1079" alt="2d analysis" src="https://github.com/user-attachments/assets/f2576cbb-e85e-40ff-83a1-03f1b6610b10" />
+<img width="1268" height="907" alt="3d image" src="https://github.com/user-attachments/assets/27049b15-70aa-4fdc-b7d8-6287fc58602d" />
+
+
 Chess Tools is a commercial chess application focused on advanced board analysis, engine integration, rendering, and interactive training features.  
 The project emphasizes performance-sensitive move generation, attack detection, AI search, rendering optimization, and complex UI state management across live and historical positions.
 
