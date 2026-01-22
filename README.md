@@ -90,8 +90,12 @@ This repository provides a technical overview of the system design and engineeri
 
 ### Training & User Systems
 - Interactive tutorial system
-- “Find the Move” training mode using master games
-- Quest-based progression system
+- Interactive master game library (200+ games)
+- Move-guessing challenges with contextual explanations
+- Branching explanations covering:
+  - Correct continuations
+  - Alternative moves
+  - Missed opportunities
 - Persistent user data:
   - Completed challenges
   - Settings
