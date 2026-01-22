@@ -2,8 +2,8 @@
 
 **Commercial chess analysis and training application**
 
-Chess Tools is a commercial chess application focused on advanced board analysis, engine integration, and interactive training features.  
-The project emphasizes performance-sensitive move generation, attack detection, AI search, and complex UI state management across live and historical positions.
+Chess Tools is a commercial chess application focused on advanced board analysis, engine integration, rendering, and interactive training features.  
+The project emphasizes performance-sensitive move generation, attack detection, AI search, rendering optimization, and complex UI state management across live and historical positions.
 
 This repository provides a technical overview of the system design and engineering challenges involved.
 
@@ -44,6 +44,22 @@ This repository provides a technical overview of the system design and engineeri
 
 ---
 
+### Rendering & Visualization
+- Fully custom **2D and 3D board rendering systems**
+- One-click runtime switching between 2D and 3D boards
+- All visual assets created from scratch:
+  - 2D pieces and analysis tools
+  - 3D chess pieces modeled in **Blender**
+- Three distinct 3D visual styles
+- Dynamic shadow system with multiple quality modes:
+  - Disabled (low-end / “potato” mode)
+  - Simple shadows
+  - Full realistic shadows
+- Shadow quality directly affects draw calls and rendering cost
+- Designed to scale from low-end hardware to higher-performance systems
+
+---
+
 ### Engine Integration & Concurrency
 - Native engine support
 - Integrated **Stockfish**
@@ -66,6 +82,7 @@ This repository provides a technical overview of the system design and engineeri
 
 ## Technical Focus
 - Performance-oriented move generation
+- Rendering optimization and draw-call reduction
 - Complex state synchronization between UI, engine, and history
 - Concurrency and external process management
 - Non-trivial domain logic (chess rules, legality, evaluation)
@@ -75,4 +92,4 @@ This repository provides a technical overview of the system design and engineeri
 ## Source Code
 This is a **commercial project**, and the source code is not publicly available.
 
-This repository exists to document the architecture, technical challenges, and problem-solving involved in building a full-featured chess analysis and training system.
+This repository exists to document the architecture, technical challenges, and problem-solving involved in building a full-featured chess analysis, rendering, and training system.
